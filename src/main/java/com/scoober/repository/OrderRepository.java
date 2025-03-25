@@ -1,10 +1,10 @@
 package com.scoober.repository;
 
-import com.scoober.model.Courier;
+import com.scoober.model.Order;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface CourierRepository extends MongoRepository<Courier, String> {
+public interface OrderRepository extends MongoRepository<Order, String> {
     
 }

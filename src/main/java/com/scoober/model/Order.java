@@ -12,8 +12,6 @@ public class Order {
     private String courierId;
     private Integer etaMinutes;
 
-    // Constructors, Getters and Setters
-
     public Order() {}
 
     public String getOrderId() {
@@ -35,5 +33,11 @@ public class Order {
     public Integer getEtaMinutes() {
         return etaMinutes;
     }
+
+    public void setStatus(String status) {
+        this.status = status;
+    }
+
+    
 }
 
