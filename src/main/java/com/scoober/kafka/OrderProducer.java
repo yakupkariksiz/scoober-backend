@@ -1,7 +1,5 @@
 package com.scoober.kafka;
 
-import static org.junit.jupiter.api.DynamicTest.stream;
-
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Service;
 
