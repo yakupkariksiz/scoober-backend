@@ -64,6 +64,17 @@ Example request:
 }
 ```
 
+```bash
+curl -X POST http://localhost:8080/api/orders \       
+-H "Content-Type: application/json" \
+-d '{
+  "location": {
+    "lat": 52.3676,
+    "lng": 4.9041
+  }
+}'
+```
+
 ### Courier API
 - POST /api/couriers: Add a new courier
 

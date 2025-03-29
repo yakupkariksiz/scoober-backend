@@ -38,6 +38,16 @@ public class Order {
         this.status = status;
     }
 
-    
+    public void setCourierId(String courierId) {
+        this.courierId = courierId;
+    }
+
+    public void setEtaMinutes(Integer etaMinutes) {
+        this.etaMinutes = etaMinutes;
+    }
+
+    public void setOrderId(String orderId) {
+        this.orderId = orderId;
+    }
 }
 
